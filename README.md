@@ -39,8 +39,7 @@ The dataset includes the following variables:
 | `sqft_living15` | Square footage of interior living space in 2015 (may reflect renovations affecting living space) |
 | `sqft_lot15`    | Square footage of the lot in 2015 (may reflect renovations affecting lot size)                   |
 
-### Target Variable
-The target variable for this project is **`price`**, which represents the sale price of a house. 
+
 
 
 
