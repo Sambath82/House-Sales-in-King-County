@@ -1,19 +1,13 @@
 # 🏠 House Price Prediction: Empowering Real Estate Decisions
 
 ## Objective
-This project aims to predict house prices with high accuracy, achieving a **Mean Absolute Error (MAE) below $20,000**, using historical data and key property features. The goal is to provide **buyers**, **sellers**, and **real estate professionals** with actionable insights for making informed decisions in a competitive market.
+The goal of this project is to build a machine learning model that accurately predicts house prices using historical data and property features. The project aims to:
+- Achieve a Mean Absolute Error (MAE) below $20,000.
+- Provide actionable insights for buyers, sellers, and real estate agents.
+- Highlight key factors influencing house prices.
 
 ## Dataset
-
-This project uses the **House Sales in King County, USA** dataset available on Kaggle. The dataset provides detailed information on home sales in King County, Washington, including property features, sale prices, and geographical data.
-
-### Dataset Source
-
-- **Kaggle URL**: [House Sales in King County Dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
-
-### Features Description
-
-The dataset includes the following variables:
+This project uses a dataset sourced from Kaggle: [House Sales in King County Dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction). The dataset provides detailed information on home sales in King County, Washington, including property features, sale prices, and geographical data.
 
 | **Variable**    | **Description**                                                                                  |
 | --------------- | ------------------------------------------------------------------------------------------------ |
@@ -38,6 +32,10 @@ The dataset includes the following variables:
 | `long`          | Longitude coordinate                                                                             |
 | `sqft_living15` | Square footage of interior living space in 2015 (may reflect renovations affecting living space) |
 | `sqft_lot15`    | Square footage of the lot in 2015 (may reflect renovations affecting lot size)                   |
+                                                               |
+
+
+
 
 
 
