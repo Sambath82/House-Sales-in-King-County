@@ -1,75 +1,49 @@
 # 🏠 House Price Prediction: Empowering Real Estate Decisions
 
-## 📋 Objective
+## Objective
 This project aims to predict house prices with high accuracy, achieving a **Mean Absolute Error (MAE) below $20,000**, using historical data and key property features. The goal is to provide **buyers**, **sellers**, and **real estate professionals** with actionable insights for making informed decisions in a competitive market.
 
----
+## Dataset
 
-## 🚀 Key Features
-- **Accurate Price Predictions**: A machine learning model trained on comprehensive property data.
-- **Actionable Insights**: Visualized trends and key drivers of house prices for better understanding.
-- **Real-World Impact**: Facilitates informed decisions for buyers, sellers, and agents.
+This project uses the **House Sales in King County, USA** dataset available on Kaggle. The dataset provides detailed information on home sales in King County, Washington, including property features, sale prices, and geographical data.
 
----
+### Dataset Source
 
-## 🔍 Dataset
-- **Source**: [Dataset Name/Source Link]
-- **Features**:
-  - Location (e.g., city, neighborhood).
-  - Property characteristics (e.g., size, number of rooms, age).
-  - Market conditions (e.g., year of sale, interest rates).
+- **Kaggle URL**: [House Sales in King County Dataset](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 
----
+### Features Description
 
-## 🛠️ Project Workflow
-1. **Data Exploration and Cleaning**:
-   - Handled missing values and outliers.
-   - Engineered features like `price per square foot`.
-2. **Modeling**:
-   - Baseline model: Linear Regression.
-   - Advanced models: Random Forest, Gradient Boosting.
-3. **Evaluation**:
-   - Achieved an MAE of $[your value] on the test set.
-4. **Insights and Visualizations**:
-   - Explored key price drivers using SHAP.
-   - Created trend maps for better insights.
+The dataset includes the following variables:
 
----
+| **Variable**    | **Description**                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------ |
+| `id`            | A unique identifier for a house                                                                  |
+| `date`          | The date the house was sold                                                                      |
+| `price`         | Sale price of the house (target variable for prediction)                                         |
+| `bedrooms`      | Number of bedrooms                                                                               |
+| `bathrooms`     | Number of bathrooms                                                                              |
+| `sqft_living`   | Square footage of the living space                                                               |
+| `sqft_lot`      | Square footage of the lot                                                                        |
+| `floors`        | Total number of floors (levels) in the house                                                     |
+| `waterfront`    | Indicator if the house has a view of the waterfront                                              |
+| `view`          | Number of times the property was viewed                                                          |
+| `condition`     | Overall condition rating of the house                                                            |
+| `grade`         | Overall grade given to the house, based on the King County grading system                        |
+| `sqft_above`    | Square footage of the house excluding the basement                                               |
+| `sqft_basement` | Square footage of the basement                                                                   |
+| `yr_built`      | Year the house was originally built                                                              |
+| `yr_renovated`  | Year the house was last renovated                                                                |
+| `zipcode`       | ZIP code of the location                                                                         |
+| `lat`           | Latitude coordinate                                                                              |
+| `long`          | Longitude coordinate                                                                             |
+| `sqft_living15` | Square footage of interior living space in 2015 (may reflect renovations affecting living space) |
+| `sqft_lot15`    | Square footage of the lot in 2015 (may reflect renovations affecting lot size)                   |
 
-## 📊 Results
-- **Model Performance**:
-  - MAE: **$[your_value]**
-  - R² Score: **[your_value]**
-- **Top Features**:
-  - Location: **50% impact**
-  - Size: **30% impact**
-  - Age: **20% impact**
+### Target Variable
+The target variable for this project is **`price`**, which represents the sale price of a house. 
 
----
 
-## 🖥️ Demo
-[Link to interactive dashboard or video demo, if available]
 
----
 
-## 🛠️ Tools and Libraries
-- **Programming Language**: Python
-- **Libraries**: Pandas, Scikit-learn, XGBoost, SHAP, Matplotlib, Seaborn
 
----
 
-## 📈 Visualizations
-![Visualization Example](link_to_image_or_plot)
-
----
-
-## 🤝 Contributing
-Feel free to fork this repository and suggest improvements. Contributions are welcome!
-
----
-
-## 📞 Contact
-For any questions or collaboration opportunities:
-- **Name**: Sambath Kin
-- **Email**: [Your Email Address]
-- **LinkedIn**: [Your LinkedIn URL]
