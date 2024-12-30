@@ -2,7 +2,7 @@
 
 ## Objective
 The goal of this project is to build a machine learning model that accurately predicts house prices using historical data and property features. The project aims to:
-- Achieve a Mean Absolute Error (MAE) below $20,000.
+- Achieve a Mean Absolute Error (MAE) below $50,000.
 - Provide actionable insights for buyers, sellers, and real estate agents.
 - Highlight key factors influencing house prices.
 
